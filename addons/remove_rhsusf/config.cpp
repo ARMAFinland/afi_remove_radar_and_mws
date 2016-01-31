@@ -10,21 +10,29 @@ class CfgPatches {
 class CfgVehicles {
 	class Heli_Attack_01_base_F;
 	class RHS_AH1Z_base: Heli_Attack_01_base_F {
-		radarType=0;
+		radarType=8;
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
+	};
+	class RHS_AH64_base: Heli_Attack_01_base_F {
+		radarType=1;
+		LockDetectionSystem="2 + 8 + 4";
+		incomingMissileDetectionSystem=16;
 	};
 	class Plane_CAS_01_base_F;
 	class RHS_A10: Plane_CAS_01_base_F {
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
-		radarType=0;
+		radarType=8;
 	};
 	class APC_Tracked_03_base_F;
 	class RHS_M2A2_Base: APC_Tracked_03_base_F {
-		radarType = 0;
+		radarType = 8;
 		LockDetectionSystem = 0;
 		IncommingMisslieDetectionSystem = 0;
+	};
+	class RHS_M6: RHS_M2A2_Base {
+		radarType = 1;
 	};
 };
 
