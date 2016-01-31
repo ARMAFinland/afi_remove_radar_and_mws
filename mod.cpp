@@ -1,11 +1,11 @@
-name = "AFI Remove radar and MWS 0.1";
+name = "AFI Remove radar and MWS 1.0b";
 picture = "";
 actionName = "GitHub";
-action = "https://github.com/Jansgi/afi_better_explosives";
-description = "Version 0.1";
+action = "https://github.com/ARMAFinland/afi_remove_radar_and_mws";
+description = "Version 1.0-beta";
 logo = "";
 logoOver = "";
 tooltip = "AFI";
 tooltipOwned = "AFI Owned";
-overview = "Adds ACE frags to explosives and improves explosives realism/gameplay balance.";
-author = "Johnson & Anatooli";
+overview = "Removes radar and missile warning system from relevant vehicles.";
+author = "Johnson";

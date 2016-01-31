@@ -1,5 +1,5 @@
 class CfgPatches {
-	class remove_rhsusf {
+	class afi_remove_rhsusf {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;

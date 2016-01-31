@@ -1,5 +1,5 @@
 class CfgPatches {
-	class remove_vanilla {
+	class afi_remove_vanilla {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;

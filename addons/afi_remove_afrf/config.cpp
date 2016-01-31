@@ -1,5 +1,5 @@
 class CfgPatches {
-	class remove_afrf {
+	class afi_remove_afrf {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
