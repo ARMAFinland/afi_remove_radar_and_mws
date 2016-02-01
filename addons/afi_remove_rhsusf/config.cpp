@@ -24,15 +24,15 @@ class CfgVehicles {
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
 		radarType=8;
-	class MFD {
-		class A10_Parallax_HUD {
-			class Draw {
-				class RadarTargets {
-                        		points[] = {};
+		class MFD {
+			class A10_Parallax_HUD {
+				class Draw {
+					class RadarTargets {
+                        			points[] = {};
+					};
 				};
 			};
 		};
-	};
 	};
 	class APC_Tracked_03_base_F;
 	class RHS_M2A2_Base: APC_Tracked_03_base_F {
