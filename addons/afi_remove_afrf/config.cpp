@@ -34,7 +34,6 @@ class CfgVehicles {
 	};
 };
 
-
 class cfgMods {
 	author = "Johnson";
 	authorUrl = "www.armafinland.fi";
