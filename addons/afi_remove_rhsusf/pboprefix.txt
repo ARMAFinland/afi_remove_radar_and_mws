@@ -1,1 +1,1 @@
-remove_rhsusf
+afi_remove_rhsusf

@@ -1,1 +1,1 @@
-remove_afrf
+afi_remove_afrf
