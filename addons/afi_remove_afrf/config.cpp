@@ -31,6 +31,7 @@ class CfgVehicles {
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
 		radarType=8;
+	};
 };
 
 
