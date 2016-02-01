@@ -14,7 +14,6 @@ class CfgVehicles {
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
 	};
-
 };
 
 class cfgMods {
