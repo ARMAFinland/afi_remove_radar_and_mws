@@ -8,4 +8,4 @@ logoOver = "";
 tooltip = "AFI";
 tooltipOwned = "AFI Owned";
 overview = "Removes radar and missile warning system from relevant vehicles.";
-author = "Johnson";
+author = "Johnson & Tikka";
