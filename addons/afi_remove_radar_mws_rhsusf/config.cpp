@@ -13,12 +13,23 @@ class CfgVehicles {
 		radarType=8;
 		LockDetectionSystem="0";
 		incomingMissileDetectionSystem=0;
+		class MFD {
+			class Kimi_HUD_2 {
+				class Draw {
+					class RadarTargets {
+						points[] = {};
+					};
+				};
+			};
+		};
 	};
+
 	class RHS_AH64_base: Heli_Attack_01_base_F {
 		radarType=1;
 		LockDetectionSystem="2 + 8 + 4";
 		incomingMissileDetectionSystem=16;
 	};
+
 	class Plane_CAS_01_base_F;
 	class RHS_A10: Plane_CAS_01_base_F {
 		LockDetectionSystem="0";
@@ -28,18 +39,20 @@ class CfgVehicles {
 			class A10_Parallax_HUD {
 				class Draw {
 					class RadarTargets {
-                        			points[] = {};
+                        points[] = {};
 					};
 				};
 			};
 		};
 	};
+
 	class APC_Tracked_03_base_F;
 	class RHS_M2A2_Base: APC_Tracked_03_base_F {
 		radarType = 8;
 		LockDetectionSystem = 0;
 		IncommingMisslieDetectionSystem = 0;
 	};
+
 	class RHS_M6: RHS_M2A2_Base {
 		radarType = 1;
 	};

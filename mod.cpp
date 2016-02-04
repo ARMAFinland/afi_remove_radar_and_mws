@@ -1,8 +1,8 @@
-name = "AFI Remove radar and MWS 1.0b";
+name = "AFI Remove radar and MWS 1.0";
 picture = "";
 actionName = "GitHub";
 action = "https://github.com/ARMAFinland/afi_remove_radar_and_mws";
-description = "Version 1.0-beta";
+description = "Version 1.0";
 logo = "";
 logoOver = "";
 tooltip = "AFI";
