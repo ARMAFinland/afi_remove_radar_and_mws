@@ -1,4 +1,4 @@
-name = "AFI Remove radar and MWS 1.0";
+name = "AFI Remove radar and MWS";
 picture = "";
 actionName = "GitHub";
 action = "https://github.com/ARMAFinland/afi_remove_radar_and_mws";
