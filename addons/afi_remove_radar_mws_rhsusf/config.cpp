@@ -26,8 +26,8 @@ class CfgVehicles {
 
 	class RHS_AH64_base: Heli_Attack_01_base_F {
 		radarType=1;
-		LockDetectionSystem="2 + 8 + 4";
-		incomingMissileDetectionSystem=16;
+		LockDetectionSystem="0";
+		incomingMissileDetectionSystem=0;
 	};
 
 	class Plane_CAS_01_base_F;
