@@ -46,6 +46,13 @@ class CfgVehicles {
 		};
 	};
 
+	class Heli_Transport_01_base_F;
+	class RHS_UH60_Base: Heli_Transport_01_base_F {
+		radarType=8;
+		LockDetectionSystem="0";
+		incomingMissileDetectionSystem=0;
+	};
+
 	class APC_Tracked_03_base_F;
 	class RHS_M2A2_Base: APC_Tracked_03_base_F {
 		radarType = 8;
@@ -54,7 +61,11 @@ class CfgVehicles {
 	};
 
 	class RHS_M6: RHS_M2A2_Base {
-		radarType = 1;
+		radarType = 4 + 8;
+		lockDetectionSystem = 0;
+		incomingMissileDetectionSystem = 0;
+		gunnerCanSee = 4 + 8 + 16;
+		driverCanSee = 2 + 8 + 16;
 	};
 };
 
