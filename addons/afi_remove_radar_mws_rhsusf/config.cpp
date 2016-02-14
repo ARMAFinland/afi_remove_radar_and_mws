@@ -53,6 +53,12 @@ class CfgVehicles {
 		incomingMissileDetectionSystem=0;
 	};
 
+	class RHS_UH60M_base: RHS_UH60_Base {
+		radarType=8;
+		LockDetectionSystem="0";
+		incomingMissileDetectionSystem=0;
+	};
+
 	class APC_Tracked_03_base_F;
 	class RHS_M2A2_Base: APC_Tracked_03_base_F {
 		radarType = 8;
