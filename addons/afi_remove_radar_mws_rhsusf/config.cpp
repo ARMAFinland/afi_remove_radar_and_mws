@@ -3,11 +3,21 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"RHS_US_A2_AirImport","RHS_US_A2Port_Armor"};
+		requiredAddons[] = {"RHS_US_A2_AirImport","RHS_US_A2Port_Armor","rhsusf_c_melb"};
 	};
 };
 
 class CfgVehicles {
+	class Helicopter;
+	class Helicopter_Base_F: Helicopter {
+		class Turrets;
+		class HitPoints;
+	};
+	class Helicopter_Base_H: Helicopter_Base_F {
+		class Turrets: Turrets {
+			class CopilotTurret;
+		};
+	};
 	class Heli_Attack_01_base_F;
 	class RHS_AH1Z_base: Heli_Attack_01_base_F {
 		radarType=8;
@@ -24,12 +34,6 @@ class CfgVehicles {
 		};
 	};
 
-	class RHS_AH64_base: Heli_Attack_01_base_F {
-		radarType=1;
-		LockDetectionSystem="0";
-		incomingMissileDetectionSystem=0;
-	};
-
 	class Plane_CAS_01_base_F;
 	class RHS_A10: Plane_CAS_01_base_F {
 		LockDetectionSystem="0";
@@ -44,6 +48,23 @@ class CfgVehicles {
 				};
 			};
 		};
+	};
+
+	class RHS_MELB_base: Helicopter_Base_H {
+		LockDetectionSystem = "0";
+		incomingMissileDetectionSystem = 0;
+			class Turrets: Turrets {
+				class CopilotTurret: CopilotTurret {
+					LockDetectionSystem = "0";
+					incomingMissileDetectionSystem = 0;
+				}
+			}
+	}
+
+	class RHS_AH64_base: Heli_Attack_01_base_F {
+		radarType=1;
+		LockDetectionSystem="0";
+		incomingMissileDetectionSystem=0;
 	};
 
 	class Heli_Transport_01_base_F;
